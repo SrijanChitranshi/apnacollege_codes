@@ -17,7 +17,7 @@ public class Matrices{
             for( int j = 0; j < m; j++ ){
                 System.out.print(matrix[i][j]+" ");
             }
-            System.out.println();
+            System.out.print();
         }
 
     }
