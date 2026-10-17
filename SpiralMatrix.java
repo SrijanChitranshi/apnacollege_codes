@@ -8,17 +8,17 @@ public class SpiralMatrix {
 
         while (startRow <= endRow && startCol <= endCol) {
 
-            // Top
+            // TOP
             for(int j = startCol; j <= endCol; j++){
                 System.out.print(matrix[startRow][j] + " ");
             }
 
-            // Right
+            // RIGHT
             for(int i = startRow + 1; i <= endRow; i++){
                 System.out.print(matrix[i][endCol] + " ");
             }
 
-            // Bottom
+            // BOTTOM
             if(startRow < endRow){
                 for(int j = endCol - 1; j >= startCol; j--){
                     System.out.print(matrix[endRow][j] + " ");
