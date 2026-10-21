@@ -32,7 +32,7 @@ public class SpiralMatrix {
                 }
             }
 
-            // boundaries update
+            // boundaries Update
             startRow++;
             startCol++;
             endRow--;
